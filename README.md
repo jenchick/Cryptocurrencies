@@ -1,6 +1,10 @@
 # Cryptocurrencies (Unsupervised Machine Learning)
 ## Overview
 
+A prominent investment bank, Accountability Accounting, is interested in offering a new cryptocurrency investment portfolio for its customers. However, this company is unfamiliar with the multiple choices of different cryptocurrencies. I created a report using unsupervised machine learning methodolgy to include which cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment. 
+
+The data was not ideal, so the first step was to clean and pre-process it. Next, the data dimensions were reduced using Principal Component Analysis (PCA), followed by clustering the cryptocurrencies using K-means. Lastly, Data visualizations were created to share the findings with the board of Accountability Accounting.
+
 ## Deliverable 1: Preprocessing the Data for PCA
 
 Initial data load:
@@ -43,4 +47,7 @@ Standardize the data:
 
 
 ## Resources
+
 Data: crypto_data.csv
+
+Applications/Technology: Jupyter Notebook, Python, Pandas, hvplot, pathlib, plotly, sklearn
